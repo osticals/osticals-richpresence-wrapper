@@ -14,6 +14,8 @@ rpc.on("ready", () => {
         startTimestamp: new Date(),
         largeImageKey: config.presence_settings.largeImageKey,
         largeImageText: config.presence_settings.largeImageText,
+        smallImageKey: config.presence_settings.smallImageKey,
+        smallImageText: config.presence_settings.smallImageText,
         joinSecret: config.presence_settings.joinSecret,
         spectateSecret: config.presence_settings.spectateSecret,
         buttons: [{label: "osticals.xyz", url: "https://osticals.xyz"}]
